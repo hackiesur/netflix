@@ -1,0 +1,108 @@
+body{
+    background-color: black;  
+}
+#logopg1 {
+    height: 3rem;
+    padding:0.6%;
+    margin-left: 2.5%;
+    margin-right: 1%;
+}
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0.7%;
+}
+.leftnav{
+    text-decoration: none;
+    width: 60%;
+}
+.navlinks{
+    color: white;
+    text-decoration: none;
+    padding: 0.8%;
+    cursor: pointer;
+    transition: color .4s;
+}
+.rightnav{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+}
+.row-home{
+    display: flex;
+    margin-top: 2%;
+    align-items: center;
+    justify-content: center;
+}
+.col-home{
+    padding: 0;
+    width: 17%;
+    margin: 1%;
+}
+.col-item{
+    margin: 2.5%;
+    padding: 0;
+    width: 100%;
+}
+.bg-black{
+    padding-top: 4%;
+}
+.search-form{
+    border: white 1px solid;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    font-size: larger;
+    width: 250px;
+}
+.search-form input[type="text"]{
+    background-color: transparent;
+    color: white;
+    border: none;
+    margin-left: 10px;
+}
+.search-form i{
+    margin-inline: 10px;
+}
+.footer {
+    background-color: #141414;
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer ul li {
+    margin: 10px;
+}
+
+.footer ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer .social-icons {
+    margin-top: 20px;
+}
+
+.footer .social-icons a {
+    margin: 5px;
+    color: #ffffff;
+    text-decoration: none;
+}
